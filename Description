@@ -1,0 +1,52 @@
+Stroke prediction with varying deep learning models Description........................................................................................................................
+
+This project explores the application of multiple deep learning models to predict the likelihood of stroke occurrence based on patient data. 
+The objective is to identify the most effective model for stroke risk prediction, enhancing early detection and preventive care.
+
+Tasks..................................................................................................................................................................................
+
+Developed and implemented deep learning models models for stroke prediction, applying advanced machine learning algorithms to analyze patient data. 
+Performed data pre-processing, feature engineering, and dimensionality reduction to enhance model accuracy and computational efficiency. 
+Conducted hyper-parameter tuning and model evaluation using cross-validation techniques to optimize performance metrics, such as accuracy, precision, 
+and recall, ensuring robust and reliable stroke prediction outcomes.
+
+Results of Stroke Prediction with Varying Deep Learning Models..........................................................................................................................
+
+The performance of three classifiers—KNN, Random Forest, and XGBooster—was evaluated under baseline and hypertuned conditions for stroke prediction. 
+The results reveal varying strengths and highlight the impact of hyperparameter tuning on model performance.
+
+Baseline Performance:
+
+Training Accuracy:
+
+KNN Classifier: 96%
+
+Random Forest Classifier: 100% (indicating slight overfitting)
+
+XGBooster: 96%
+
+Testing Accuracy:
+
+KNN Classifier: 94%
+
+Random Forest Classifier: 94%
+
+XGBooster: 96%
+
+Hypertuned Performance:
+
+Training Accuracy: All models achieved 96%, showing improved balance and addressing overfitting in the Random Forest Classifier.
+
+Insights:
+
+XGBooster: Provided slightly better accuracy in baseline testing, demonstrating its robustness in handling complex datasets.
+
+Random Forest Classifier: Initially exhibited overfitting with 100% training accuracy, but hyperparameter tuning improved its generalization, 
+achieving consistent results across training and testing datasets.
+
+KNN Classifier: Performance remained unchanged after hypertuning, indicating a potential ceiling in its predictive capabilities with the given data.
+
+Conclusion:
+XGBooster emerged as the most effective model for this stroke prediction task, offering a slight edge in baseline accuracy. 
+Random Forest and KNN provided competitive performance but required different levels of tuning to address limitations. 
+This comparative analysis underscores the importance of model selection and optimization in achieving reliable predictive outcomes in healthcare applications.
